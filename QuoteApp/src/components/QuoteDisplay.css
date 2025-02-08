@@ -1,0 +1,76 @@
+/* Center the whole container and set the background */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; 
+    font-family: 'Arial', sans-serif; 
+  }
+  
+  /* The quote container style */
+  .quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3ccb3; 
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+    width: 100%;
+    max-width: 500px;
+    margin: 20px; 
+  }
+  
+  /* Title styling */
+  h1 {
+    font-size: 2.2rem;
+    color: #c1944c;
+    margin-bottom: 20px;
+    font-weight: 600; /
+  }
+  
+  /* Styling for the quote text */
+  p {
+    font-size: 1.3rem;
+    color:  #c1944c;
+    line-height: 1.6;
+    font-style: italic; 
+    margin-bottom: 20px;
+    max-width: 90%;
+  }
+  
+  /* Button styling */
+  button {
+    padding: 12px 30px;
+    background-color: #e7b578;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background-color: #a06c45;
+    transform: scale(1.05); 
+  }
+  
+  /* Error message styling */
+  .error {
+    color: red;
+    font-size: 1.2rem;
+  }
+  
+  /* Loading spinner animation */
+  .loading {
+    font-size: 1.5rem;
+    color: #888;
+    margin-top: 10px;
+  }
+  
